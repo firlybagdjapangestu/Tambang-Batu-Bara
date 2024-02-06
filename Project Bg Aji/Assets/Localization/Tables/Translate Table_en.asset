@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Translate Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4eed2b358618743488b50f1a4e394ad8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6185603547136
+    m_Localized: Choice Lenguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13018925621248
+    m_Localized: Foundational Learning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16186669522944
+    m_Localized: Types of building foundations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16396258893824
+    m_Localized: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16512910876672
+    m_Localized: Intruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16612122943488
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18525899972608
+    m_Localized: Learning about Types of Building Foundations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18763649900544
+    m_Localized: Foundation is a part of a building that channels the building's
+      load into the ground, maintains stability, and prevents damage by evenly distributing
+      the load. This is done so that the ground can safely support the building and
+      prevent shifting or damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18967300136960
+    m_Localized: Shallow Foundations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19237623029760
+    m_Localized: Deep Foundations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21456409845760
+    m_Localized: Shallow Foundation Types
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21703253024768
+    m_Localized: standalone foundation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22001468039168
+    m_Localized: continuous foundation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154249756672
+    m_Localized: Raft Foundation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23347986423808
+    m_Localized: pier foundation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23280051281920
+    m_Localized: Types of Deep Foundations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23307876294656
+    m_Localized: Pile Foundation
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

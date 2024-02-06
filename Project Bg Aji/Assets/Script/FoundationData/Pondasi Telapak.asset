@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d2bfe3a8c3d9a43bb979480b085103, type: 3}
+  m_Name: Pondasi Telapak
+  m_EditorClassIdentifier: 
+  foundationImage: {fileID: 0}
+  foundationName: Standalone Foundation
+  foundationDescription: A spread footing is a standalone foundation that supports
+    a column. Here is an illustration of a spread footing.
+  soundDescription: {fileID: 8300000, guid: 943d5c3115ca8f04e89198831167d858, type: 3}
+  namaPondasi: Pondasi Telapak
+  deskripsiPondasi: 'Pondasi telapak (spread footing) adalah pondasi yang berdiri
+    sendiri dalam mendukung kolom. Berikut adalah ilustrasi dari pondasi telapak.
+
+'
+  suaraPenjelasan: {fileID: 8300000, guid: e762e787e4e1c8d4aa2f8dc5d36d2a81, type: 3}
+  foundationPrefab: {fileID: 4068045341146738975, guid: a8a57bda68ba4a44ca00bc3a40eb080d,
+    type: 3}

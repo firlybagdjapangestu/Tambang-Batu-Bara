@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Translate Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Translate Table
+  m_TableCollectionNameGuidString: 4eed2b358618743488b50f1a4e394ad8
+  m_Entries:
+  - m_Id: 6185603547136
+    m_Key: ChoiceLenguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13018925621248
+    m_Key: MainMenu-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16186669522944
+    m_Key: MainMenu-Pondasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16396258893824
+    m_Key: MainMenu-Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16512910876672
+    m_Key: MainMenu-Intruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16612122943488
+    m_Key: MainMenu-Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18525899972608
+    m_Key: TypeFoundation-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18763649900544
+    m_Key: TypeFoundation-Explain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18967300136960
+    m_Key: TypeFoundation-Shallow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19237623029760
+    m_Key: TypeFoundation-Deep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21456409845760
+    m_Key: Shallow-Tittle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21703253024768
+    m_Key: Shallow-Telapak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22001468039168
+    m_Key: Shallow-Memanjang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154249756672
+    m_Key: Shallow-Rakit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23280051281920
+    m_Key: Deep-Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23307876294656
+    m_Key: Deep-Tiang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23347986423808
+    m_Key: Deep-Sumuran
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7977450654913527832
+  references:
+    version: 2
+    RefIds:
+    - rid: 7977450654913527832
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1704418590879
