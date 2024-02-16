@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     public int howMuchButtonClick;
     public int limitButtonClick;
     public GameObject lockPanel;
-    public GameObject settingPanel;
     private int thisFirstTime;
     public int lenguageID;
     private const string ntpServer = "pool.ntp.org";
@@ -26,7 +25,6 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        
         DateTime currentTime = DateTime.Now;
         Debug.Log("Waktu saat ini: " + currentTime);
         if(howMuchButtonClick > limitButtonClick)
@@ -39,11 +37,6 @@ public class GameManager : MonoBehaviour
             Debug.Log("Aplikasi Terkunci");
             lockPanel.SetActive(true);
         }
-        thisFirstTime = PlayerPrefs.GetInt("FirstTime");
-        if (thisFirstTime == 0)
-        {
-            settingPanel.SetActive(true);
-        }
         lenguageID = PlayerPrefs.GetInt("LocaleKey");
         ChangeLocale(lenguageID);
         StartCoroutine(GetNetworkTime());
@@ -54,10 +47,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneIndex);
     }
 
-    public void SelectFoundation(int choice)
+    public void SelectStage(int choice)
     {
-        PlayerPrefs.SetInt("ChoiceFoundation", choice);
+        PlayerPrefs.SetInt("ChoiceStage", choice);
     }
+
     public void ChangeLocale(int _localeId)
     {
         firstTimeInstall();

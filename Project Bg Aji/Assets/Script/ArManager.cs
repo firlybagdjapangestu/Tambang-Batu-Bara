@@ -6,46 +6,51 @@ using TMPro;
 
 public class ArManager : MonoBehaviour
 {
-    [SerializeField] private FoundationData[] Foundations;
+    [SerializeField] private MiningData[] miningStage;
     [SerializeField] private TextMeshProUGUI titleText;
     [SerializeField] private TextMeshProUGUI descriptionText;
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private GameObject panelDescription;
+    private bool panelDescriptionStatus;
     private AudioClip audioClip;
-    private int choiceFoundation;
+    private int choiceStageMining;
     public int lenguageID;
 
     // Start is called before the first frame update
     void Start()
     {
-        choiceFoundation = PlayerPrefs.GetInt("ChoiceFoundation");
-        lenguageID = PlayerPrefs.GetInt("LocaleKey"); 
-        if (lenguageID == 0)
-        {
-            DisplayDescriptionFoundationEN();
-        }
-        else
-        {
-            DisplayDescriptionFoundationID();
-        }
+        panelDescriptionStatus = false;
+        choiceStageMining = PlayerPrefs.GetInt("ChoiceStage");
+        print(choiceStageMining);
+        lenguageID = PlayerPrefs.GetInt("LocaleKey");
+        DisplayDescriptionFoundationID();
         
     }
 
     void DisplayDescriptionFoundationID()
     {
-        titleText.text = Foundations[choiceFoundation].namaPondasi;
-        descriptionText.text = Foundations[choiceFoundation].deskripsiPondasi;
-        audioClip = Foundations[choiceFoundation].suaraPenjelasan;
+        titleText.text = miningStage[choiceStageMining].miningName;
+        descriptionText.text = miningStage[choiceStageMining].miningDescription;
+        audioClip = miningStage[choiceStageMining].miningSoundDescription;
     }
 
-    void DisplayDescriptionFoundationEN()
+
+    public void OnButtonDescriptionClick()
     {
-        titleText.text = Foundations[choiceFoundation].foundationName;
-        descriptionText.text = Foundations[choiceFoundation].foundationDescription;
-        audioClip = Foundations[choiceFoundation].soundDescription;
+        if (!panelDescriptionStatus)
+        {
+            panelDescriptionStatus = true;
+            panelDescription.SetActive(true);
+        }
+        else
+        {
+            panelDescriptionStatus = false;
+            panelDescription.SetActive(false);
+        }
     }
-
     public void PlaySoundDescription()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(audioClip);
     }
 }

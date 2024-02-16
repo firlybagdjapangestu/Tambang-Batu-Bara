@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347cbd1bb36d99141bc7797df77161cd, type: 3}
+  m_Name: Stage 6
+  m_EditorClassIdentifier: 
+  miningImage: {fileID: 21300000, guid: ed54cb66f8b231b428b9dcb4272ad588, type: 3}
+  miningName: Coal Hauling
+  miningDescription: Proses pengangkutan raw coal menggunakan dumptruck (Coal Hauling).
+  miningSoundDescription: {fileID: 8300000, guid: 6c4bb8aecd2fb684aa7669f5a8cd0a48,
+    type: 3}
+  MiningPrefabs: {fileID: 6251487860436530331, guid: ce8a28fe2e7e8064fb2f3f36409990b1,
+    type: 3}
