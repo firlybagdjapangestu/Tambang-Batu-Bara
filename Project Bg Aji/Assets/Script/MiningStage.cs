@@ -14,10 +14,7 @@ public class MiningStage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 spawnPosition = gameObject.transform.position;
-        spawnPosition.y = -0.5f; // Mengubah nilai Y
-
-        GameObject obj = Instantiate(miningStageData[stageChoice].MiningPrefabs, spawnPosition, Quaternion.identity);
+        GameObject obj = Instantiate(miningStageData[stageChoice].MiningPrefabs, gameObject.transform.position, Quaternion.identity);
         obj.transform.SetParent(gameObject.transform); // Membuat objek yang di-instantiate menjadi child dari game object ini
     }
 }
