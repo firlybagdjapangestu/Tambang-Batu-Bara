@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     public static GameManager Instance { get { return _instance; } }
-    public DateTime expiredApp = new DateTime(2024, 3, 30); // Atur nilai default di Inspector
+    public DateTime expiredApp = new DateTime(2024, 4, 30); // Atur nilai default di Inspector
     public int howMuchButtonClick;
     public int limitButtonClick;
     public GameObject lockPanel;
@@ -27,16 +27,6 @@ public class GameManager : MonoBehaviour
     {
         DateTime currentTime = DateTime.Now;
         Debug.Log("Waktu saat ini: " + currentTime);
-        if(howMuchButtonClick > limitButtonClick)
-        {
-            Debug.Log("Aplikasi Terkunci");
-            lockPanel.SetActive(true);
-        }
-        if(currentTime > expiredApp)
-        {
-            Debug.Log("Aplikasi Terkunci");
-            lockPanel.SetActive(true);
-        }
         lenguageID = PlayerPrefs.GetInt("LocaleKey");
         ChangeLocale(lenguageID);
         StartCoroutine(GetNetworkTime());
