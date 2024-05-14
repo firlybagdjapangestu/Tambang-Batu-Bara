@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347cbd1bb36d99141bc7797df77161cd, type: 3}
+  m_Name: Stage 2
+  m_EditorClassIdentifier: 
+  miningImage: {fileID: 21300000, guid: 03ede556bc8088346b40308d2f41792a, type: 3}
+  miningName: Top Soil Removal
+  miningDescription: Top Soil Removal is the process of relocating soil with the
+    aim of preserving it from damage, thus retaining nutrient elements that can be
+    reused for reclamation activities. The extracted top soil will be transferred
+    to a disposal area for temporary storage.
+  miningSoundDescription: {fileID: 8300000, guid: 66d21ae1fd8503043bae36b7eb114bb1,
+    type: 3}
+  MiningPrefabs: {fileID: 5718223845171891628, guid: 311bd6cbba7cd8243b3dbb88a9937c48,
+    type: 3}
